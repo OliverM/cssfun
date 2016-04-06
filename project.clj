@@ -19,7 +19,9 @@
                  [cljsjs/react-dom-server "0.14.3-0"]
 
                  #_[org.omcljs/om "0.9.0"]
-                 #_[reagent "0.5.1"]]
+                 [reagent "0.6.0-alpha"]
+                 [thi.ng/color "1.2.0"]]
+
   
   :plugins [[lein-cljsbuild "1.1.2" :exclusions [org.clojure/clojure]]]
 
