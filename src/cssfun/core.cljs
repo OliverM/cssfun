@@ -1,7 +1,8 @@
 (ns cssfun.core
   (:require
    #_[om.core :as om :include-macros true]
-   [sablono.core :as sab :include-macros true])
+   [sablono.core :as sab :include-macros true]
+   [cssfun.start])
   (:require-macros
    [devcards.core :as dc :refer [defcard deftest]]))
 
